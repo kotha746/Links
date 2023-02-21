@@ -6,6 +6,12 @@
 		<link href="assets/reset.css" rel="stylesheet">
 		<link href="assets/style.css" rel="stylesheet">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+
+
+
 		<script defer src="assets/arena.js"></script>
 	</head>
 
@@ -21,19 +27,48 @@
 
         <main>
             
-            <ul class="image-blocks"></ul>
+        
+            <ul class="audio-embed-blocks audio-file-blocks image-blocks embed-blocks link-blocks pdf-blocks text-blocks video-embed-blocks video-file-blocks">
+			</ul>
 
         </main>
+
+
 
         <template id="image-block">
             <div>
                  <img class="image-square">
             </div>
+            <a class="link">
+                <p class="link-title"></p>
+            </a>
+            <figcaption class="description"></figcaption>
         </template>
 
-        
-        
+        <template id="video-embed-blocks">
+            <div>
+                 <img class="image-square">
+            </div>
+        </template>
 
+        <template id="link-block">
+            <div>
+                <img class="image-square">
+            </div>
+        </template>
 
+       <template id="video-file-block">
+            <div>
+                <img class="image-square">
+            </div>
+       </template>
+       
+       <template id="text-block">
+            <div>
+                <p class="content"></p>
+            </div>
+       </template>
+
+       
     </body>
-    </html>
+</html>
