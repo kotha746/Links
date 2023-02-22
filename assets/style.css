@@ -1,16 +1,17 @@
 
 body {
-    background-color: #F5F5F5;
+    background-color: white;
     padding: 20px;
 }
 .hero {
     height: 40vh;
     border: solid #1E1E1E 3px;
     margin-bottom: 40px;
+    background-color: #FFF8ED;
 }
 
 .banner {
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
     color: #1E1E1E;
     padding: 20px;
     font-family: 'Playfair Display', serif;
@@ -25,10 +26,12 @@ body {
     padding: 50px 20px 20px 50px;
     border: solid #1E1E1E 3px;
     align-items: center;
+    background-color: #FFF8ED;
+
 }
 
 .channel-description {
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
     color: #1E1E1E;
     text-align: center;
     font-family: 'Playfair Display', serif;
