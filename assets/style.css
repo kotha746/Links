@@ -221,10 +221,11 @@ figure > img {object-fit: cover;}
 body {
     background-color: white;
     padding: 10px;
+    font-family: 'Libre Baskerville', serif;
 }
 
     .hero {
-        height: 50vh;
+        height: 30vh;
         border: solid #1E1E1E 3px;
         margin-bottom: 20px;
     }
