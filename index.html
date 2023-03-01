@@ -13,6 +13,7 @@
 
 
 		<script defer src="assets/arena.js"></script>
+        <script defer src="assets/main.js"></script>
 	</head>
 
 
@@ -30,51 +31,142 @@
 
     <div class="plates">
 
-   
-        <main>
-            
-        
-            <ul class="audio-embed-blocks audio-file-blocks image-blocks embed-blocks link-blocks pdf-blocks text-blocks video-embed-blocks video-file-blocks">
-			</ul>
+        <main class="main">
+            <p class="title-heading">The Menu: Here's whats cooking in the Gastronomical World</p>
+            <ul class="link-blocks">
+            </ul>
+        </main>
 
+        <main class="main">
+            <p class="title-heading">The Food: Here's whats cooking in the Gastronomical World</p>
+            <ul class="audio-embed-blocks audio-file-blocks image-blocks embed-blocks  pdf-blocks  video-file-blocks">
+			</ul>
+        </main>
+        
+
+        <main class="main">
+            <p class="title-heading">The Bill: The Most Expensive Restaurants in NYC</p>
+            <ul class="text-blocks">
+            </ul>
+        </main>
+
+        <main class="main">
+            <p class="title-heading">Is this worth the price?</p>
+            <ul class="video-embed-blocks">
+            </ul>
+        </main>
+
+        <main class="main">
+            <p class="title-heading">Fin. Merci Beaucoup</p>
+    
         </main>
 
 
-
-        <template id="image-block">
-            <div>
-                 <img class="image-square">
-            </div>
-            <a class="link">
-                <p class="link-title"></p>
-            </a>
-            <figcaption class="description"></figcaption>
-        </template>
-
-        <template id="video-embed-blocks">
-            <div>
-                 <img class="image-square">
-            </div>
-        </template>
-
         <template id="link-block">
-            <div>
-                <img class="image-square">
-            </div>
+            <a class="link">
+                <img class="image-square" id="link-content">
+            </a>
+            <a class="link">
+                <p class="link-title link-heading"></p>
+
+            </a>
+            <!-- <figcaption class="description"></figcaption> -->
         </template>
 
-       <template id="video-file-block">
+        
+        <template id="image-block">
+            <li>
+                <a >
+                    <figure>
+                        <figure>
+                            <img class="image-square">
+                        </figure>
+                        <aside>
+                            <img class="image">
+                        </aside>
+                    </figure>
+
+                    <a class="link">
+                        <p class="link-title"></p>
+                    </a>
+                    <!-- <figcaption class="description"></figcaption> -->
+                </a>
+        </li>
+        </template>
+<!-- 
+        <template id="image-block">
+			<li>
+				<figure class="image-block">
+					<h3 class="title"></h3>
+					<picture>
+						<source class="image-thumb">
+						<source class="image-square">
+						<source class="image-display">
+						<img class="image">
+					</picture>
+					<a class="link">
+						<p class="link-title"></p>
+					</a>
+					<figcaption class="description"></figcaption>
+					<p class="time-updated"></p>
+					<p class="time-created"></p>
+				</figure>
+			</li>
+		</template> -->
+
+
+        <template id="text-block">
+            <li>
+                <figure class="text-block">
+                    <h3 class="title"></h3>
+                    <div class="content"></div>
+                    </figure>
+            </li>
+
+            <!-- <a class="link">
+                <p class="link-title link-heading"></p>
+
+            </a> -->
+       </template>
+
+
+       <template id="video-embed-block">
+        <li>
+            <figure class="video-embed-block">
+                <h3 class="title"></h3>
+                <!-- <picture>
+                
+                    <source class="image-square">
+                
+                    <img class="image">
+                </picture> -->
+                <div class="embed"></div>
+                <a class="link">
+                    <p class="link-title"></p>
+                </a>
+                <!-- <figcaption class="description"></figcaption> -->
+               
+            </figure>
+        </li>
+    </template>
+
+       <!-- <template id="video-file-block">
             <div>
                 <img class="image-square">
             </div>
        </template>
        
-       <template id="text-block">
-            <div>
-                <p class="content"></p>
-            </div>
-       </template>
 
-    </div>
+       <template id="embed-block">
+            <div>
+                <p class="image-square"></p>
+            </div>
+        </template>
+
+    </div> -->
+
+
+
+
     </body>
 </html>
