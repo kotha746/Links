@@ -276,7 +276,7 @@ body {
         padding: 10px;
         margin: 5px 5px;
         font-family: 'Libre Baskerville', serif;
-    
+        font-weight: bold;
     }
     
 
@@ -333,8 +333,8 @@ body {
     
     #link-content {
          /* display: grid; */
-         width: 250px;
-         height: 250px;
+         width: 280px;
+         height: 280px;
          border-radius: 0%;
          aspect-ratio: none;
          /* border: solid 1px red; */
@@ -353,6 +353,7 @@ body {
         margin: 10px 5px;
         padding: 20px;
         background-color: white;
+        text-align: -webkit-center;
     }
     
     /* .link-blocks img {
@@ -387,21 +388,24 @@ body {
         padding: 20px;
         background-color: white;
         font-family: monospace;
+        text-align: -webkit-center;
     }
     
     .video-embed-blocks {
         margin: 0px;
         width: 100%;
+        
     }
     .link-title {
         width: 250px;
     }
     .embed {
         
-        max-width: 270px;
+        max-width: 300px;
         height: 150px;
         width: 300px;
         overflow: hidden;
+        text-align: -webkit-center;
     }
 
   }
